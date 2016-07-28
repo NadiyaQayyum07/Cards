@@ -1,6 +1,6 @@
 public class Deck {
   private Card card;
-  private int remainingCards = 53;
+  private int remainingCards = 52;
 
   DeckOfCards() {
     Card = new Card();   
