@@ -27,7 +27,7 @@ public class Card{
     		return String.format("%s of %s", stringValue, cardSuit); 
 	} 
 
-public int compareTo(Card otherCard) {       
+public int compare(Card otherCard) {       
         //compare card
         int cardDiff = card.compareToIgnoreCase(otherCard.card);
         if(cardDiff != 0){
