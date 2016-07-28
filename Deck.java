@@ -1,9 +1,9 @@
 public class Deck {
-  private Card theCard;
-  private int remainingCards = 52;
+  private Card card;
+  private int remainingCards = 53;
 
   DeckOfCards() {
-    theCard = new Card();   
+    Card = new Card();   
   }
 
   public void shuffle(){
